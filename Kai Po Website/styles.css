@@ -112,3 +112,38 @@ HERO SECTION
     line-height: 2;
     max-width: 500px;
 }
+
+/* 
+
+FOOTER 
+
+*/
+
+footer{
+    position: relative;
+    background-color: #242424;
+    padding: 6% 0;
+}
+
+.footer__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo--img {
+    width: 100px;
+}
+
+.footer__social--list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.footer__social--link,
+.footer__copyright {
+    color: #cfcfcf;
+}
+

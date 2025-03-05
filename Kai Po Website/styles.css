@@ -95,23 +95,46 @@ HERO SECTION
 */
 
 .hero {
-   margin: 0;
-   padding: 0;
-   height: 50vh;
-}
-
-.hero__title {
-    font-family: qwigley;
-    font-size: 200px;
-    justify-content: center;
-    text-align: center;
-}
-
-.hero__para {
-    font-size: 24px;
-    line-height: 2;
-    max-width: 500px;
-}
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .hero__content {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+     text-align: center;
+ }
+ 
+ .hero__title {
+     font-family: 'Qwigley', cursive;
+     font-size: 200px;
+     justify-content: center;
+     text-align: center;
+ }
+ 
+ .hero__para {
+     font-size: 24px;
+     line-height: 2;
+     max-width: 500px;
+ }
+ 
+ .btn {
+     justify-content: center;
+     color: #cfcfcf;
+     border: 1px solid #cfcfcf;
+     border-radius: 5px;
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: #242424;
+ }
+ 
+ .btn--primary {
+     background-color: #cfcfcf;
+     color: #242424;
+ }
 
 /* 
 
